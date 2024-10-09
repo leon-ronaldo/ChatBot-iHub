@@ -1,0 +1,67 @@
+{
+    "queries": {
+        "greetings": [
+            "Hello, how are you?",
+            "Hi, can you help me with something?",
+            "Good day! Can you assist me?",
+            "Hey there, how's it going?",
+            "Hi! What can you tell me about Apple?",
+            "Hello, I'm looking for some information.",
+            "Greetings! What can I ask you about Apple?",
+            "Hi, what can you do for me today?",
+            "Good morning! Can you provide assistance?",
+            "Hello, can you help me with my queries?"
+        ],
+
+        "aboutCompany": {
+            "general": [
+                "Can you tell me about Apple Inc.?",
+                "What does Apple do as a company?",
+                "Who founded Apple and when?",
+                "Where is Apple headquartered?",
+                "What is Apple's mission statement?",
+                "How has Apple influenced the tech industry?",
+                "Can you tell me about Apple's history?",
+                "What are some key facts about Apple?",
+                "What makes Apple different from other tech companies?",
+                "What is Apple's approach to innovation?"
+            ],
+            "appleHistory": [
+                "Can you tell me about the founding of Apple?",
+                "What are some major milestones in Apple's history?",
+                "How has Apple evolved over the years?",
+                "What significant events have shaped Apple Inc.?",
+                "When did Apple become a publicly traded company?",
+                "What impact did Steve Jobs have on Apple's history?",
+                "Can you provide an overview of Apple's major product launches?",
+                "How did Apple's brand identity develop over time?",
+                "What role did innovation play in Apple's history?",
+                "What challenges has Apple faced throughout its history?"
+            ],
+            "appleEconomy": [
+                "What is Apple's current market position?",
+                "How does Apple generate its revenue?",
+                "Can you provide insights into Apple's financial performance?",
+                "What are the key factors contributing to Apple's economic success?",
+                "How has Apple's stock performed recently?",
+                "What is the significance of Apple's services segment to its economy?",
+                "How does Apple impact the global economy?",
+                "What are Apple's financial projections for the future?",
+                "How many employees does Apple have and how does that impact its economy?",
+                "What trends are affecting Apple's economic growth?"
+            ],
+            "recentUpdates": [
+                "What are the latest innovations from Apple?",
+                "Can you tell me about Apple's recent product launches?",
+                "What is Apple doing with augmented reality technology?",
+                "What are Apple's environmental goals?",
+                "Has Apple made any significant updates to its services recently?",
+                "What are the newest features in Apple's software updates?",
+                "Tell me more about Apple's Vision Pro headset.",
+                "What recent updates have there been to the iPhone or Mac?",
+                "How is Apple improving its devices with custom silicon chips?",
+                "What new initiatives has Apple launched in 2023?"
+            ]
+        }
+    }
+}

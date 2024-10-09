@@ -1,0 +1,168 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello, how are you?",
+                "Hi, can you help me with something?",
+                "Good day! Can you assist me?",
+                "Hey there, how's it going?",
+                "Hi! What can you tell me about Apple?",
+                "Hello, I'm looking for some information.",
+                "Greetings! What can I ask you about Apple?",
+                "Hi, what can you do for me today?",
+                "Good morning! Can you provide assistance?",
+                "Hello, can you help me with my queries?"
+            ],
+            "responses": [
+                "Hello! Welcome to the world of Apple. How can I assist you today?",
+                "Hi there! I'm your Apple assistant. How can I help you?",
+                "Greetings from Apple! What can I do for you today?",
+                "Hey! Need help with something Apple-related? I'm here to assist!",
+                "Welcome to Apple! Let me know if you have any questions.",
+                "Hi! How can I help you explore the latest from Apple today?",
+                "Hello! I'm your virtual Apple assistant. How can I assist you with Apple products or services?",
+                "Welcome! How can I make your Apple experience better today?",
+                "Hi there! Let me know if you need any help with Apple's products or services.",
+                "Hello! I'm here to guide you through everything Apple. How can I help you?",
+                "Hey! It's a great day for some Apple support. What can I help you with?",
+                "Welcome to Apple's virtual assistant. What would you like to know or explore today?",
+                "Hi! Ready to dive into the Apple ecosystem? How can I assist you today?",
+                "Greetings from Apple! How can I enhance your experience today?",
+                "Hello! Let me know if you need help with your Apple devices or services."
+            ]
+        },
+        {
+            "tag": "exit",
+            "patterns": [
+                "I think that's all for today, goodbye.",
+                "Thanks for your help, I'm leaving now.",
+                "I have to go now, take care!",
+                "That's all I needed, see you later!",
+                "I appreciate your assistance, goodbye!",
+                "It's time for me to head out, thanks!",
+                "I need to sign off now, have a great day!",
+                "Thanks for the information, I'm off now.",
+                "I have no more questions, bye!",
+                "I think I'm done here, see you next time!",
+                "Thank you for your help, I'm logging out.",
+                "I should get going now, take care!",
+                "Thanks for your support, I'm leaving now.",
+                "Goodbye! I'll return if I have more questions.",
+                "It's been nice talking with you, goodbye!",
+                "I appreciate your help, I need to go now.",
+                "I think I've got everything I need, bye!",
+                "Thanks for chatting, see you later!",
+                "I need to go, but I'll be back!",
+                "Goodbye! Have a great rest of your day!",
+                "Thanks for the conversation, I'm signing off."
+            ],
+            "responses": [
+                "You're welcome! Have a great day!",
+                "Thanks for chatting! Feel free to come back anytime.",
+                "Goodbye! Don't hesitate to reach out if you need more help.",
+                "Take care! Looking forward to our next conversation.",
+                "You're welcome! Have a wonderful day ahead.",
+                "Thanks for stopping by! See you next time!",
+                "Goodbye! I'm here whenever you need assistance.",
+                "Glad to help! Have a fantastic day!",
+                "Thanks for the conversation! Come back anytime you need help.",
+                "Goodbye! Wishing you all the best!",
+                "Thank you for visiting! Have a great day!",
+                "See you later! I'm always here if you need me.",
+                "Goodbye! It was a pleasure assisting you.",
+                "Thanks for your time! Looking forward to our next chat.",
+                "Have a great day! I'm here if you need anything else.",
+                "Goodbye! Take care and see you soon!",
+                "It was great talking to you! Don't hesitate to come back.",
+                "Thanks for the chat! Have a good one!",
+                "Goodbye! Remember, I'm here if you need anything else.",
+                "Take care! See you next time!",
+                "Goodbye! I'm just a message away whenever you need help."
+            ]
+        },
+        {
+            "tag": "productsAvailability",
+            "patterns": [
+                "Is this product currently in stock?",
+                "Can you tell me if this item is available for purchase?",
+                "Do you have this product available right now?",
+                "Is there a way to check the availability of this item?",
+                "Are there any units of this product left?",
+                "Can I find this product in your store?",
+                "Is this product available in different colors or sizes?",
+                "Do you know when this item will be back in stock?",
+                "Can I reserve this product for pickup?",
+                "Is there a waiting list for this product?",
+                "Can I check the availability of this item online?",
+                "How often do you restock this product?",
+                "Are there any special editions of this product available?",
+                "Can you tell me if this item is sold out?",
+                "Is this product available for delivery?",
+                "Are there any similar products that are available?",
+                "What is the estimated delivery time for this item?",
+                "Can I order this product even if it's not available now?",
+                "Do you have this item at your physical location?",
+                "How can I be notified when this product is back in stock?"
+            ],
+            "responses": {
+                "positive": [
+                    "Yes, *productName* is available right now! You can purchase it for *salePrice*, and it's a great deal with a *discountPercentage* discount.",
+                    "The *productName* is in stock with a rating of *starRating* stars based on *numberOfRatings* reviews. If you're interested, you can find it at this link: *productVisitLink*."
+                ],
+                "negative": [
+                    "I'm sorry, but *productName* is currently out of stock. Please check back later or subscribe for updates on its availability."
+                ]
+            }
+        },
+        {
+            "tag": "productPrice",
+            "patterns": [
+                "What is the price of this product?",
+                "How much does this item cost?",
+                "Can you tell me the price for this product?",
+                "Is there a special price for this product right now?",
+                "What is the current sale price for this item?",
+                "Are there any discounts available for this product?",
+                "What was the original price before any discounts?",
+                "Can you provide the price details for this item?",
+                "Does this product have a price match guarantee?",
+                "Is there a price difference between online and in-store for this product?",
+                "Can you confirm the sale price for this product?",
+                "Are there any additional fees associated with this item?",
+                "What is the price range for similar products?",
+                "Is the price listed including taxes?",
+                "Can you tell me if the price is subject to change?",
+                "Are there any upcoming promotions that might affect the price?"
+            ],
+            "responses": {
+                "withOffer": [
+                    "The current price of *productName* is *salePrice*, which includes a *discountPercentage%* discount off the original price of *mrp*.",
+                    "You can get the *productName* for *salePrice* right now! It has a fantastic discount of *discountPercentage%* off the usual price of *mrp*.",
+                    "The price for *productName* is currently *salePrice*, reflecting a *discountPercentage%* discount. This product has been rated *starRating* stars by *numberOfRatings* users."
+                        
+                ],
+                "withoutOffer": [
+                    "The price of *productName* is *salePrice*. There are currently no discounts available on this item.",
+                    "For *productName*, the price is *salePrice*. It's the standard price with no current promotions.",
+                    "The *productName* is available for *salePrice*. Unfortunately, it does not have any discounts or special offers at this time."                
+                ]
+            }
+        },
+        {
+            "tag": "listProducts", 
+            "patterns": [
+                "What products do you have available right now?",
+                "Can you show me the list of products you offer?",
+                "What items are currently in stock?",
+                "Could you provide me with a catalog of your products?",
+                "What are the latest products available in your store?",
+                "Can I see all the products you carry?",
+                "What types of products do you have for sale?",
+                "Can you give me an overview of your product lineup?",
+                "What are your featured products at the moment?",
+                "Do you have a list of all the items you sell?"
+            ]
+        }
+    ]
+}
