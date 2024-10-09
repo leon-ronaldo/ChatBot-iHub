@@ -1,6 +1,6 @@
 {
-    "iPhones": {
-        "1": {
+    "iphones": [
+        {
             "name": "APPLE iPhone 8 Plus (Space Grey, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-8-plus-space-grey-256-gb/p/itmexrgvzkbyqgtf?pid=MOBEXRGVAC6TJT4F",
             "brand": "Apple",
@@ -8,12 +8,12 @@
             "mrp": "84900",
             "discountPercentage": "0",
             "numberOfRatings": "3431",
-            "numberOfReviews": "356",
+            "stock": "356",
             "upc": "MOBEXRGVAC6TJT4F",
             "starRating": "4.6",
             "ram": "2 GB"
         },
-        "2": {
+        {
             "name": "APPLE iPhone 8 Plus (Silver, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-8-plus-silver-256-gb/p/itmexrgvxatuyrqw?pid=MOBEXRGVGETABXWZ",
             "brand": "Apple",
@@ -21,12 +21,12 @@
             "mrp": "84900",
             "discountPercentage": "0",
             "numberOfRatings": "3431",
-            "numberOfReviews": "356",
+            "stock": "356",
             "upc": "MOBEXRGVGETABXWZ",
             "starRating": "4.6",
             "ram": "2 GB"
         },
-        "3": {
+        {
             "name": "APPLE iPhone 8 (Silver, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-8-silver-256-gb/p/itmexrgvae48gzhp?pid=MOBEXRGVMZWUHCBA",
             "brand": "Apple",
@@ -34,12 +34,12 @@
             "mrp": "77000",
             "discountPercentage": "0",
             "numberOfRatings": "11202",
-            "numberOfReviews": "794",
+            "stock": "794",
             "upc": "MOBEXRGVMZWUHCBA",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "4": {
+        {
             "name": "APPLE iPhone 8 (Gold, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-8-gold-256-gb/p/itmexrgv8bvfbzgw?pid=MOBEXRGVPK7PFEJZ",
             "brand": "Apple",
@@ -47,12 +47,12 @@
             "mrp": "77000",
             "discountPercentage": "0",
             "numberOfRatings": "11202",
-            "numberOfReviews": "794",
+            "stock": "794",
             "upc": "MOBEXRGVPK7PFEJZ",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "5": {
+        {
             "name": "APPLE iPhone 8 Plus (Silver, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-8-plus-silver-64-gb/p/itmexrgv7yfjbryy?pid=MOBEXRGVQGYYP8FV",
             "brand": "Apple",
@@ -60,12 +60,12 @@
             "mrp": "49900",
             "discountPercentage": "0",
             "numberOfRatings": "3431",
-            "numberOfReviews": "356",
+            "stock": "356",
             "upc": "MOBEXRGVQGYYP8FV",
             "starRating": "4.6",
             "ram": "2 GB"
         },
-        "6": {
+        {
             "name": "APPLE iPhone 8 Plus (Space Grey, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-8-plus-space-grey-64-gb/p/itmexrgvehtzhh9v?pid=MOBEXRGVQKBREZP8",
             "brand": "Apple",
@@ -73,12 +73,12 @@
             "mrp": "49900",
             "discountPercentage": "0",
             "numberOfRatings": "3431",
-            "numberOfReviews": "356",
+            "stock": "356",
             "upc": "MOBEXRGVQKBREZP8",
             "starRating": "4.6",
             "ram": "2 GB"
         },
-        "7": {
+        {
             "name": "APPLE iPhone 8 (Space Grey, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-8-space-grey-256-gb/p/itmexrgvypzqw6df?pid=MOBEXRGVZFZGZEWV",
             "brand": "Apple",
@@ -86,12 +86,12 @@
             "mrp": "77000",
             "discountPercentage": "0",
             "numberOfRatings": "11202",
-            "numberOfReviews": "794",
+            "stock": "794",
             "upc": "MOBEXRGVZFZGZEWV",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "8": {
+        {
             "name": "APPLE iPhone XS Max (Silver, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-xs-max-silver-64-gb/p/itmf944ehzsh7emx?pid=MOBF944E2XAHW8V5",
             "brand": "Apple",
@@ -99,12 +99,12 @@
             "mrp": "89900",
             "discountPercentage": "0",
             "numberOfRatings": "1454",
-            "numberOfReviews": "149",
+            "stock": "149",
             "upc": "MOBF944E2XAHW8V5",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "9": {
+        {
             "name": "Apple iPhone XR ((PRODUCT)RED, 128 GB) (Includes EarPods, Power Adapter)",
             "url": "https://www.flipkart.com/apple-iphone-xr-product-red-128-gb-includes-earpods-power-adapter/p/itmf9z7zbkvjzegf?pid=MOBF9Z7ZHQC23PWQ",
             "brand": "Apple",
@@ -112,12 +112,12 @@
             "mrp": "52900",
             "discountPercentage": "20",
             "numberOfRatings": "79512",
-            "numberOfReviews": "6796",
+            "stock": "6796",
             "upc": "MOBF9Z7ZHQC23PWQ",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "10": {
+        {
             "name": "Apple iPhone XR (Black, 64 GB) (Includes EarPods, Power Adapter)",
             "url": "https://www.flipkart.com/apple-iphone-xr-black-64-gb-includes-earpods-power-adapter/p/itmf9z7zxu4uqyz2?pid=MOBF9Z7ZPHGV4GNH",
             "brand": "Apple",
@@ -125,12 +125,12 @@
             "mrp": "47900",
             "discountPercentage": "16",
             "numberOfRatings": "79512",
-            "numberOfReviews": "6796",
+            "stock": "6796",
             "upc": "MOBF9Z7ZPHGV4GNH",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "11": {
+        {
             "name": "Apple iPhone XR (Coral, 128 GB) (Includes EarPods, Power Adapter)",
             "url": "https://www.flipkart.com/apple-iphone-xr-coral-128-gb-includes-earpods-power-adapter/p/itmf9z7zgxx5wgez?pid=MOBF9Z7ZS6GF5UAP",
             "brand": "Apple",
@@ -138,12 +138,12 @@
             "mrp": "52900",
             "discountPercentage": "20",
             "numberOfRatings": "79582",
-            "numberOfReviews": "6804",
+            "stock": "6804",
             "upc": "MOBF9Z7ZS6GF5UAP",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "12": {
+        {
             "name": "Apple iPhone XR (Black, 128 GB) (Includes EarPods, Power Adapter)",
             "url": "https://www.flipkart.com/apple-iphone-xr-black-128-gb-includes-earpods-power-adapter/p/itmf9z7zhdgzwmzm?pid=MOBF9Z7ZYWNFGZUC",
             "brand": "Apple",
@@ -151,12 +151,12 @@
             "mrp": "52900",
             "discountPercentage": "20",
             "numberOfRatings": "79512",
-            "numberOfReviews": "6796",
+            "stock": "6796",
             "upc": "MOBF9Z7ZYWNFGZUC",
             "starRating": "4.6",
             "ram": "3 GB"
         },
-        "13": {
+        {
             "name": "Apple iPhone XR (White, 128 GB) (Includes EarPods, Power Adapter)",
             "url": "https://www.flipkart.com/apple-iphone-xr-white-128-gb-includes-earpods-power-adapter/p/itmf9z7zrz4tbhwm?pid=MOBF9Z7ZZY3HCDZZ",
             "brand": "Apple",
@@ -164,12 +164,12 @@
             "mrp": "52900",
             "discountPercentage": "20",
             "numberOfRatings": "79512",
-            "numberOfReviews": "6796",
+            "stock": "6796",
             "upc": "MOBF9Z7ZZY3HCDZZ",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "14": {
+        {
             "name": "APPLE iPhone 11 Pro Max (Gold, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-max-gold-256-gb/p/itm94c6536eefc46?pid=MOBFKCTS7HCHSPFH",
             "brand": "Apple",
@@ -177,12 +177,12 @@
             "mrp": "131900",
             "discountPercentage": "0",
             "numberOfRatings": "1078",
-            "numberOfReviews": "101",
+            "stock": "101",
             "upc": "MOBFKCTS7HCHSPFH",
             "starRating": "4.7",
             "ram": "4 GB"
         },
-        "15": {
+        {
             "name": "APPLE iPhone 11 Pro Max (Gold, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-max-gold-64-gb/p/itm6ef18218efdf6?pid=MOBFKCTSAPAYNSGG",
             "brand": "Apple",
@@ -190,12 +190,12 @@
             "mrp": "117100",
             "discountPercentage": "0",
             "numberOfRatings": "1078",
-            "numberOfReviews": "101",
+            "stock": "101",
             "upc": "MOBFKCTSAPAYNSGG",
             "starRating": "4.7",
             "ram": "4 GB"
         },
-        "16": {
+        {
             "name": "APPLE iPhone 11 Pro Max (Midnight Green, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-max-midnight-green-256-gb/p/itm68e0db18f9ecc?pid=MOBFKCTSCAAKGQV7",
             "brand": "Apple",
@@ -203,12 +203,12 @@
             "mrp": "131900",
             "discountPercentage": "0",
             "numberOfRatings": "1078",
-            "numberOfReviews": "101",
+            "stock": "101",
             "upc": "MOBFKCTSCAAKGQV7",
             "starRating": "4.7",
             "ram": "4 GB"
         },
-        "17": {
+        {
             "name": "APPLE iPhone 11 Pro Max (Space Grey, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-max-space-grey-64-gb/p/itme0101031155f8?pid=MOBFKCTSKDMKCGQS",
             "brand": "Apple",
@@ -216,12 +216,12 @@
             "mrp": "117100",
             "discountPercentage": "0",
             "numberOfRatings": "1078",
-            "numberOfReviews": "101",
+            "stock": "101",
             "upc": "MOBFKCTSKDMKCGQS",
             "starRating": "4.7",
             "ram": "4 GB"
         },
-        "18": {
+        {
             "name": "APPLE iPhone 11 Pro (Midnight Green, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-midnight-green-64-gb/p/itm471de0d2e8474?pid=MOBFKCTSN3TG3RFJ",
             "brand": "Apple",
@@ -229,12 +229,12 @@
             "mrp": "106600",
             "discountPercentage": "29",
             "numberOfRatings": "7088",
-            "numberOfReviews": "523",
+            "stock": "523",
             "upc": "MOBFKCTSN3TG3RFJ",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "19": {
+        {
             "name": "APPLE iPhone 11 Pro (Space Grey, 512 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-space-grey-512-gb/p/itmcd1f0ddbf1c21?pid=MOBFKCTSRTHRQTFT",
             "brand": "Apple",
@@ -242,12 +242,12 @@
             "mrp": "140300",
             "discountPercentage": "15",
             "numberOfRatings": "7088",
-            "numberOfReviews": "523",
+            "stock": "523",
             "upc": "MOBFKCTSRTHRQTFT",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "20": {
+        {
             "name": "APPLE iPhone 11 Pro Max (Midnight Green, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-max-midnight-green-64-gb/p/itmab1763b5ca244?pid=MOBFKCTSRYPAQNYT",
             "brand": "Apple",
@@ -255,12 +255,12 @@
             "mrp": "117100",
             "discountPercentage": "0",
             "numberOfRatings": "1078",
-            "numberOfReviews": "101",
+            "stock": "101",
             "upc": "MOBFKCTSRYPAQNYT",
             "starRating": "4.7",
             "ram": "4 GB"
         },
-        "21": {
+        {
             "name": "APPLE iPhone 11 Pro (Midnight Green, 512 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-midnight-green-512-gb/p/itm0bdd954387ca9?pid=MOBFKCTSSJCWYGCC",
             "brand": "Apple",
@@ -268,12 +268,12 @@
             "mrp": "140300",
             "discountPercentage": "15",
             "numberOfRatings": "7088",
-            "numberOfReviews": "523",
+            "stock": "523",
             "upc": "MOBFKCTSSJCWYGCC",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "22": {
+        {
             "name": "APPLE iPhone 11 Pro (Space Grey, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-pro-space-grey-256-gb/p/itmbecef22a95790?pid=MOBFKCTSWGYSAS9X",
             "brand": "Apple",
@@ -281,12 +281,12 @@
             "mrp": "121300",
             "discountPercentage": "17",
             "numberOfRatings": "7081",
-            "numberOfReviews": "522",
+            "stock": "522",
             "upc": "MOBFKCTSWGYSAS9X",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "23": {
+        {
             "name": "Apple iPhone SE (White, 256 GB) (Includes EarPods, Power Adapter)",
             "url": "https://www.flipkart.com/apple-iphone-se-white-256-gb-includes-earpods-power-adapter/p/itm4d73793c30c4c?pid=MOBFRFXHPZCHAPEH",
             "brand": "Apple",
@@ -294,12 +294,12 @@
             "mrp": "54900",
             "discountPercentage": "18",
             "numberOfRatings": "95909",
-            "numberOfReviews": "8161",
+            "stock": "8161",
             "upc": "MOBFRFXHPZCHAPEH",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "24": {
+        {
             "name": "APPLE iPhone 12 Pro (Silver, 512 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-silver-512-gb/p/itm0ccf9fc219a71?pid=MOBFWBYZ5UY6ZBVA",
             "brand": "Apple",
@@ -307,12 +307,12 @@
             "mrp": "149900",
             "discountPercentage": "6",
             "numberOfRatings": "542",
-            "numberOfReviews": "42",
+            "stock": "42",
             "upc": "MOBFWBYZ5UY6ZBVA",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "25": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Pacific Blue, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-pacific-blue-256-gb/p/itm3a0860c94250e?pid=MOBFWBYZ8STJXCVT",
             "brand": "Apple",
@@ -320,12 +320,12 @@
             "mrp": "139900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZ8STJXCVT",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "26": {
+        {
             "name": "APPLE iPhone 12 Mini (White, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-mini-white-128-gb/p/itm9098fa76548ba?pid=MOBFWBYZAGXJRDGB",
             "brand": "Apple",
@@ -333,12 +333,12 @@
             "mrp": "74900",
             "discountPercentage": "13",
             "numberOfRatings": "740",
-            "numberOfReviews": "64",
+            "stock": "64",
             "upc": "MOBFWBYZAGXJRDGB",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "27": {
+        {
             "name": "APPLE iPhone 12 Pro (Graphite, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-graphite-256-gb/p/itm4fa4da575698c?pid=MOBFWBYZBA36UB7G",
             "brand": "Apple",
@@ -346,12 +346,12 @@
             "mrp": "129900",
             "discountPercentage": "6",
             "numberOfRatings": "545",
-            "numberOfReviews": "42",
+            "stock": "42",
             "upc": "MOBFWBYZBA36UB7G",
             "starRating": "4.5",
             "ram": "6 GB"
         },
-        "28": {
+        {
             "name": "APPLE iPhone 12 Mini (White, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-mini-white-64-gb/p/itmf3b16d1640898?pid=MOBFWBYZBH4CEC4C",
             "brand": "Apple",
@@ -359,12 +359,12 @@
             "mrp": "69900",
             "discountPercentage": "14",
             "numberOfRatings": "740",
-            "numberOfReviews": "64",
+            "stock": "64",
             "upc": "MOBFWBYZBH4CEC4C",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "29": {
+        {
             "name": "APPLE iPhone 12 (White, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-white-128-gb/p/itm95393f4c6cc59?pid=MOBFWBYZBTZFGJF9",
             "brand": "Apple",
@@ -372,12 +372,12 @@
             "mrp": "84900",
             "discountPercentage": "10",
             "numberOfRatings": "2101",
-            "numberOfReviews": "180",
+            "stock": "180",
             "upc": "MOBFWBYZBTZFGJF9",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "30": {
+        {
             "name": "APPLE iPhone 12 Pro (Graphite, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-graphite-128-gb/p/itm03e5f2595d843?pid=MOBFWBYZBZ7Y56WD",
             "brand": "Apple",
@@ -385,12 +385,12 @@
             "mrp": "119900",
             "discountPercentage": "7",
             "numberOfRatings": "545",
-            "numberOfReviews": "42",
+            "stock": "42",
             "upc": "MOBFWBYZBZ7Y56WD",
             "starRating": "4.5",
             "ram": "6 GB"
         },
-        "31": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Graphite, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-graphite-256-gb/p/itm8dbdf0b986725?pid=MOBFWBYZEF6XQ5ZW",
             "brand": "Apple",
@@ -398,12 +398,12 @@
             "mrp": "139900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZEF6XQ5ZW",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "32": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Graphite, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-graphite-128-gb/p/itm973c298184f51?pid=MOBFWBYZFDGQSDWS",
             "brand": "Apple",
@@ -411,12 +411,12 @@
             "mrp": "129900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZFDGQSDWS",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "33": {
+        {
             "name": "APPLE iPhone 12 Mini (Black, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-mini-black-128-gb/p/itm0eb512c195bdf?pid=MOBFWBYZH2AMPNPD",
             "brand": "Apple",
@@ -424,12 +424,12 @@
             "mrp": "74900",
             "discountPercentage": "13",
             "numberOfRatings": "730",
-            "numberOfReviews": "63",
+            "stock": "63",
             "upc": "MOBFWBYZH2AMPNPD",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "34": {
+        {
             "name": "APPLE iPhone 12 Mini (Blue, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-mini-blue-128-gb/p/itm9b6cdec9700ee?pid=MOBFWBYZHU58PHCZ",
             "brand": "Apple",
@@ -437,12 +437,12 @@
             "mrp": "74900",
             "discountPercentage": "13",
             "numberOfRatings": "730",
-            "numberOfReviews": "63",
+            "stock": "63",
             "upc": "MOBFWBYZHU58PHCZ",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "35": {
+        {
             "name": "APPLE iPhone 12 (Black, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-black-128-gb/p/itmf1f0a58f1ecd7?pid=MOBFWBYZK3HACR72",
             "brand": "Apple",
@@ -450,12 +450,12 @@
             "mrp": "84900",
             "discountPercentage": "10",
             "numberOfRatings": "2101",
-            "numberOfReviews": "180",
+            "stock": "180",
             "upc": "MOBFWBYZK3HACR72",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "36": {
+        {
             "name": "APPLE iPhone 12 (Blue, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-blue-128-gb/p/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG",
             "brand": "Apple",
@@ -463,12 +463,12 @@
             "mrp": "84900",
             "discountPercentage": "10",
             "numberOfRatings": "2101",
-            "numberOfReviews": "180",
+            "stock": "180",
             "upc": "MOBFWBYZKPTZF9VG",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "37": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Silver, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-silver-128-gb/p/itm5a51ba742a17e?pid=MOBFWBYZNSNVGGZC",
             "brand": "Apple",
@@ -476,12 +476,12 @@
             "mrp": "129900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZNSNVGGZC",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "38": {
+        {
             "name": "APPLE iPhone 12 Mini (Red, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-mini-red-64-gb/p/itm255dd64643767?pid=MOBFWBYZNVWGWN2U",
             "brand": "Apple",
@@ -489,12 +489,12 @@
             "mrp": "69900",
             "discountPercentage": "14",
             "numberOfRatings": "740",
-            "numberOfReviews": "64",
+            "stock": "64",
             "upc": "MOBFWBYZNVWGWN2U",
             "starRating": "4.5",
             "ram": "6 GB"
         },
-        "39": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Gold, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-gold-128-gb/p/itme3ae592065711?pid=MOBFWBYZQVKT77YH",
             "brand": "Apple",
@@ -502,12 +502,12 @@
             "mrp": "129900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZQVKT77YH",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "40": {
+        {
             "name": "APPLE iPhone 12 (Green, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-green-128-gb/p/itm4e0a120f7d9c4?pid=MOBFWBYZQXUEHF48",
             "brand": "Apple",
@@ -515,12 +515,12 @@
             "mrp": "84900",
             "discountPercentage": "10",
             "numberOfRatings": "2092",
-            "numberOfReviews": "178",
+            "stock": "178",
             "upc": "MOBFWBYZQXUEHF48",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "41": {
+        {
             "name": "APPLE iPhone 12 Pro (Pacific Blue, 512 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-pacific-blue-512-gb/p/itm8a39d6779b04e?pid=MOBFWBYZTHSXKMGW",
             "brand": "Apple",
@@ -528,12 +528,12 @@
             "mrp": "149900",
             "discountPercentage": "6",
             "numberOfRatings": "545",
-            "numberOfReviews": "42",
+            "stock": "42",
             "upc": "MOBFWBYZTHSXKMGW",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "42": {
+        {
             "name": "APPLE iPhone 12 (White, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-white-64-gb/p/itm8b88bdc03cd79?pid=MOBFWBYZTK33MBG9",
             "brand": "Apple",
@@ -541,12 +541,12 @@
             "mrp": "79900",
             "discountPercentage": "11",
             "numberOfRatings": "2101",
-            "numberOfReviews": "180",
+            "stock": "180",
             "upc": "MOBFWBYZTK33MBG9",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "43": {
+        {
             "name": "APPLE iPhone 12 (Black, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-black-64-gb/p/itma2559422bf7c7?pid=MOBFWBYZU5FWK2VP",
             "brand": "Apple",
@@ -554,12 +554,12 @@
             "mrp": "79900",
             "discountPercentage": "11",
             "numberOfRatings": "2092",
-            "numberOfReviews": "178",
+            "stock": "178",
             "upc": "MOBFWBYZU5FWK2VP",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "44": {
+        {
             "name": "APPLE iPhone 12 (Red, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-red-128-gb/p/itma7bd86885ed98?pid=MOBFWBYZUHPFWQRD",
             "brand": "Apple",
@@ -567,12 +567,12 @@
             "mrp": "84900",
             "discountPercentage": "10",
             "numberOfRatings": "2101",
-            "numberOfReviews": "180",
+            "stock": "180",
             "upc": "MOBFWBYZUHPFWQRD",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "45": {
+        {
             "name": "APPLE iPhone 12 Mini (Black, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-mini-black-64-gb/p/itm38b727191eb08?pid=MOBFWBYZXSEGBS6F",
             "brand": "Apple",
@@ -580,12 +580,12 @@
             "mrp": "69900",
             "discountPercentage": "14",
             "numberOfRatings": "740",
-            "numberOfReviews": "64",
+            "stock": "64",
             "upc": "MOBFWBYZXSEGBS6F",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "46": {
+        {
             "name": "APPLE iPhone 12 Pro (Pacific Blue, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-pacific-blue-128-gb/p/itm97c833296c221?pid=MOBFWBYZXYSCEEEH",
             "brand": "Apple",
@@ -593,12 +593,12 @@
             "mrp": "119900",
             "discountPercentage": "7",
             "numberOfRatings": "545",
-            "numberOfReviews": "42",
+            "stock": "42",
             "upc": "MOBFWBYZXYSCEEEH",
             "starRating": "4.5",
             "ram": "6 GB"
         },
-        "47": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Pacific Blue, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-pacific-blue-128-gb/p/itmd89812b558a03?pid=MOBFWBYZZABKHZQA",
             "brand": "Apple",
@@ -606,12 +606,12 @@
             "mrp": "129900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZZABKHZQA",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "48": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Silver, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-silver-256-gb/p/itm30faf74442adb?pid=MOBFWBYZZH4AM8FE",
             "brand": "Apple",
@@ -619,12 +619,12 @@
             "mrp": "139900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZZH4AM8FE",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "49": {
+        {
             "name": "APPLE iPhone 12 Pro Max (Gold, 256 GB)",
             "url": "https://www.flipkart.com/apple-iphone-12-pro-max-gold-256-gb/p/itm1e0354f5bbc8c?pid=MOBFWBYZZPW8JHQF",
             "brand": "Apple",
@@ -632,12 +632,12 @@
             "mrp": "139900",
             "discountPercentage": "6",
             "numberOfRatings": "580",
-            "numberOfReviews": "45",
+            "stock": "45",
             "upc": "MOBFWBYZZPW8JHQF",
             "starRating": "4.6",
             "ram": "6 GB"
         },
-        "50": {
+        {
             "name": "APPLE iPhone 11 (White, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-white-128-gb/p/itme32df47ea6742?pid=MOBFWQ6B7KKRXDDS",
             "brand": "Apple",
@@ -645,12 +645,12 @@
             "mrp": "59900",
             "discountPercentage": "8",
             "numberOfRatings": "43707",
-            "numberOfReviews": "3357",
+            "stock": "3357",
             "upc": "MOBFWQ6B7KKRXDDS",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "51": {
+        {
             "name": "APPLE iPhone 11 (Red, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-red-128-gb/p/itm8d14bd0e33a1c?pid=MOBFWQ6BEZTNK59G",
             "brand": "Apple",
@@ -658,12 +658,12 @@
             "mrp": "59900",
             "discountPercentage": "8",
             "numberOfRatings": "43707",
-            "numberOfReviews": "3357",
+            "stock": "3357",
             "upc": "MOBFWQ6BEZTNK59G",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "52": {
+        {
             "name": "APPLE iPhone SE (White, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-se-white-64-gb/p/itma00a19e11c81b?pid=MOBFWQ6BGWDVGF3E",
             "brand": "Apple",
@@ -671,12 +671,12 @@
             "mrp": "39900",
             "discountPercentage": "24",
             "numberOfRatings": "95807",
-            "numberOfReviews": "8154",
+            "stock": "8154",
             "upc": "MOBFWQ6BGWDVGF3E",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "53": {
+        {
             "name": "APPLE iPhone SE (Black, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-se-black-128-gb/p/itma9285ccc6af28?pid=MOBFWQ6BHUEVZPXD",
             "brand": "Apple",
@@ -684,12 +684,12 @@
             "mrp": "44900",
             "discountPercentage": "22",
             "numberOfRatings": "95909",
-            "numberOfReviews": "8161",
+            "stock": "8161",
             "upc": "MOBFWQ6BHUEVZPXD",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "54": {
+        {
             "name": "APPLE iPhone SE (White, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-se-white-128-gb/p/itmc2a0f593a4ad8?pid=MOBFWQ6BJEHMUUZY",
             "brand": "Apple",
@@ -697,12 +697,12 @@
             "mrp": "44900",
             "discountPercentage": "22",
             "numberOfRatings": "95807",
-            "numberOfReviews": "8154",
+            "stock": "8154",
             "upc": "MOBFWQ6BJEHMUUZY",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "55": {
+        {
             "name": "APPLE iPhone SE (Red, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-se-red-128-gb/p/itma4202509da171?pid=MOBFWQ6BJTVFKPEJ",
             "brand": "Apple",
@@ -710,12 +710,12 @@
             "mrp": "44900",
             "discountPercentage": "22",
             "numberOfRatings": "95909",
-            "numberOfReviews": "8161",
+            "stock": "8161",
             "upc": "MOBFWQ6BJTVFKPEJ",
             "starRating": "4.5",
             "ram": "2 GB"
         },
-        "56": {
+        {
             "name": "APPLE iPhone 11 (Black, 128 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-black-128-gb/p/itm8244e8d955aba?pid=MOBFWQ6BKRYBP5X8",
             "brand": "Apple",
@@ -723,12 +723,12 @@
             "mrp": "59900",
             "discountPercentage": "8",
             "numberOfRatings": "43470",
-            "numberOfReviews": "3331",
+            "stock": "3331",
             "upc": "MOBFWQ6BKRYBP5X8",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "57": {
+        {
             "name": "APPLE iPhone SE (Black, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-se-black-64-gb/p/itm4d3d5718a5c95?pid=MOBFWQ6BR3MK7AUG",
             "brand": "Apple",
@@ -736,12 +736,12 @@
             "mrp": "39900",
             "discountPercentage": "24",
             "numberOfRatings": "95909",
-            "numberOfReviews": "8161",
+            "stock": "8161",
             "upc": "MOBFWQ6BR3MK7AUG",
             "starRating": "4.5",
             "ram": "4 GB"
         },
-        "58": {
+        {
             "name": "APPLE iPhone 11 (Purple, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-purple-64-gb/p/itm2b8d03427ddac?pid=MOBFWQ6BTFFJKGKE",
             "brand": "Apple",
@@ -749,12 +749,12 @@
             "mrp": "54900",
             "discountPercentage": "14",
             "numberOfRatings": "43470",
-            "numberOfReviews": "3331",
+            "stock": "3331",
             "upc": "MOBFWQ6BTFFJKGKE",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "59": {
+        {
             "name": "APPLE iPhone 11 (White, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-white-64-gb/p/itmfc6a7091eb20b?pid=MOBFWQ6BVWVEH3XE",
             "brand": "Apple",
@@ -762,12 +762,12 @@
             "mrp": "54900",
             "discountPercentage": "14",
             "numberOfRatings": "43470",
-            "numberOfReviews": "3331",
+            "stock": "3331",
             "upc": "MOBFWQ6BVWVEH3XE",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "60": {
+        {
             "name": "APPLE iPhone 11 (Black, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-black-64-gb/p/itm4e5041ba101fd?pid=MOBFWQ6BXGJCEYNY",
             "brand": "Apple",
@@ -775,12 +775,12 @@
             "mrp": "54900",
             "discountPercentage": "14",
             "numberOfRatings": "43470",
-            "numberOfReviews": "3331",
+            "stock": "3331",
             "upc": "MOBFWQ6BXGJCEYNY",
             "starRating": "4.6",
             "ram": "4 GB"
         },
-        "61": {
+        {
             "name": "APPLE iPhone 11 (Red, 64 GB)",
             "url": "https://www.flipkart.com/apple-iphone-11-red-64-gb/p/itmc3935326f2feb?pid=MOBFWQ6BYYV3FCU7",
             "brand": "Apple",
@@ -788,10 +788,11 @@
             "mrp": "54900",
             "discountPercentage": "14",
             "numberOfRatings": "43470",
-            "numberOfReviews": "3331",
+            "stock": "3331",
             "upc": "MOBFWQ6BYYV3FCU7",
             "starRating": "4.6",
             "ram": "4 GB"
         }
-    }
+    ],
+    "services": {}
 }

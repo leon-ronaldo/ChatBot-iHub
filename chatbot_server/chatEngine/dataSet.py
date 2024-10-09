@@ -6,14 +6,14 @@ CURRENT_DIRECTORY = os.getcwd()
 
 print(CURRENT_DIRECTORY)
 
-with open(rf"{CURRENT_DIRECTORY}\chatbot_server\chatEngine\apple_products.csv", mode="r", encoding="utf-8") as appleCSV, open(rf"{CURRENT_DIRECTORY}\chatbot_server\chatEngine\formattedData.json", mode="r") as jsonReadFile, open(rf"{CURRENT_DIRECTORY}\chatbot_server\chatEngine\formattedData.json", mode="w") as jsonWriteFile:
+with open(rf"{CURRENT_DIRECTORY}\ChatBot-iHub\chatbot_server\chatEngine\apple_products.csv", mode="r", encoding="utf-8") as appleCSV, open(rf"{CURRENT_DIRECTORY}\ChatBot-iHub\chatbot_server\chatEngine\formattedData.json", mode="r") as jsonReadFile, open(rf"{CURRENT_DIRECTORY}\ChatBot-iHub\chatbot_server\chatEngine\formattedData.json", mode="w") as jsonWriteFile:
     csv_reader = csv.DictReader(appleCSV)
     try:
         jsonData = json.load(jsonReadFile)
     except json.JSONDecodeError as e:
         print(f"Error decoding JSON: {e}")
         # Initialize with a default structure if JSON is invalid
-        jsonData = {"products": {}, "services": {}}
+        jsonData = {"products": [], "services": {}}
     
     counter = 0
     
@@ -22,7 +22,7 @@ with open(rf"{CURRENT_DIRECTORY}\chatbot_server\chatEngine\apple_products.csv", 
             counter += 1
             continue
         
-        jsonData['products'][counter] = {
+        jsonData['products'].append({
             'name': row['Product Name'],
             'url': row['Product URL'],
             'brand': row['Brand'],
@@ -34,7 +34,7 @@ with open(rf"{CURRENT_DIRECTORY}\chatbot_server\chatEngine\apple_products.csv", 
             'upc': row['Upc'],
             'starRating': row['Star Rating'],
             'ram': row['Ram'],
-        }
+        })
         counter += 1
     
     json.dump(jsonData, jsonWriteFile, indent=4)

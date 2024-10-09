@@ -1,99 +1,94 @@
-const asyncHandler = require("express-async-handler");
-const ChipDetail = require("../models/chatModel");
+const asyncHandler = require("express-async-handler")
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const iPhoneModel = require("../models/iPhoneModel")
+const macBookModel = require("../models/macBookModel")
+const connectDB = require("../config/dbConnection");
+const { exit } = require("process");
+
+const genAI = new GoogleGenerativeAI("AIzaSyCM3_2TIq7lhJZTnGJyvUy_U1P7m1kXngA");
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 
-//*********************GET && POST******************
+const rephrase = [
+  "I'm sorry, I couldn't understand that. Could you please rephrase your question?",
+  "Hmm, that seems a bit unclear. Could you try asking in a different way?",
+  "I'm having trouble finding an answer. Could you rephrase your question for me?",
+  "I'm not sure how to help with that. Can you ask in another way?",
+  "Apologies, I didn't catch that. Could you rephrase your question?",
+  "I'm not sure I have the right information. Would you mind rephrasing?",
+  "I didn't quite get that. Can you ask again with different wording?",
+  "That's a bit unclear. Could you rephrase your question for me to assist better?",
+  "Sorry, I couldn't find an answer. Can you try asking your question differently?",
+  "I'm having trouble understanding. Could you ask the question in a different way?",
+  "It looks like I don't have an answer for that. Can you rephrase your query?",
+  "I'm not sure I follow. Could you ask your question again with different wording?"
+];
 
-//@desc Get all chipDetails
-//@route GET /chips
-//@access private
-const getChipDetails = asyncHandler(async (req, res) => {
-  const chipDetails = await ChipDetail.find();
-  if(chipDetails)res.status(200).json(chipDetails);
-  else res.status(404).json({message:"not found"});
-});
+// const query = "how can i access AWS";  
 
-//@desc Create New chipDetail
-//@route POST /chips
-//@access private
-const postChipDetails = asyncHandler(async (req, res) => {
+// const prompt = consider you are a chatbot of apple, the user asked you "${query}"\n\return me with only these things under the following criteria\nreturn "greeting" if the question is a greeting or a normal chat.\nreturn "invalid" if the question is not related to apple company\nreturn "product" if the question is about an apple product\nreturn "service" if the question is about an apple service\nreturn "about" if the question is related to apple company 
 
-  console.log("The request body is :", req.body);
-  const user_id = req.body.user_id;
-  
+const getResult = async (prompt) => {
+  const result = await model.generateContent(prompt);
+  return result.response.text()
+}
 
-  if (!user_id) {
-    console.log('Error');
-    res.status(400);
-  }
+const getContext = asyncHandler(async (req, res, next) => {
+  const query = req.body.query;  
 
-  try {
- 
-    var chip = {
-      'user_id': user_id
-    };
+  const prompt = `consider you are a chatbot of apple, the user asked you "${query}"\n\return me with only these things under the following criteria\nreturn "greeting" if the question is a greeting or a normal chat.\nreturn "invalid" if the question is not related to apple company\nreturn "product" if the question is about an apple product\nreturn "service" if the question is about an apple service\nreturn "about" if the question is related to apple company`
 
-    const createdChip = await ChipDetail.create(chip);
-    console.log(createdChip);
-    res.status(200).json(createdChip);
-    res.end();
-  } catch (error) {
-    console.log(error);
-  }
-});
+  const result = await model.generateContent(prompt);
+  const context = result.response.text()
 
-//@desc Get a Chip
-//@route GET /chips/id
-//@access private
-const getChipDetail = asyncHandler(async (req, res) => { 
-  const { id } = req.params;
-  const chip =  await ChipDetail.findById(id); // using chipId
-  //const chip =  await ChipDetail.find({user_id:req.params.id});   // using user_id
-  if (!chip)
-    res.status(404).json({message: 'no data'});
+  req.body.context = context
+  next()
+})
 
-  else 
-    res.status(200).json(chip);
-});
+const respond = asyncHandler(async (req, res) => {
+  const query = req.body.query;
+  const context = req.body.context;
 
-//@desc Update PackingAndMovingOrder
-//@route PUT /api/packingAndMovingOrder/:id
-//@access private
-
-/*{
-    "parameter": "user_id",   // Json input
-    "value": "null"
-  }*/
-const updateChipDetail = asyncHandler(async (req, res) => {
-  if (!req.body.parameter || !req.body.value) res.status(400).json({message: 'Some fields are missing.'});
-
-  console.log(`reqest id is : ${req.params.id}`);
-  console.log(`request body is : ${req.body.value}`)
-  
-  try {
-    const updatedChip = await ChipDetail.findOneAndUpdate(
-      { _id: req.params.id },
-      { $set: { [req.body.parameter]: req.body.value } },
-      { new: true } // Return the updated document
-    );
+  if (context == "product") {
+    const category = await respondProduct(query)
     
-    if (updatedChip) {
-      res.status(200).json({message:`${req.body.parameter} changed.`});
-    }
-    else {
-      res.status(404).json({message: 'chip not found.'});
-    }
-  } catch (error) {
-    res.status(500).json({message: 'Couldn\'t update changes, please try again.'});
   }
 });
 
+const respondProduct = async (query) => {
+  const prompt = `the user asked a query about an apple product. The query is "${query}". Can you classify under which category the product falls?
+      \nreturn "iPhone" if the product is an iPhone
+      \nreturn "macBook" if the product is an macBook
+      \nreturn "macDesktop" if the product is desktop mac
+      \nreturn "iPad" if the product is an iPad\nreturn "appleWatch" if the product is an apple wearable
+      \nreturn "airPods" if the product is an apple air pod
+      \nreturn "invalid" if the product doesn't belong to apple company
+      \nremember to return only the tags which i have provided and not anything else.`
 
+  var result = (await getResult(prompt)).trim()
 
+  if (result === "invalid") {
+    const randomIndex = Math.floor(Math.random() * rephrase.length);
+    return rephrase[randomIndex];
+  }
 
-module.exports = {
-  getChipDetails,
-  postChipDetails,
-  getChipDetail,
-  updateChipDetail
-};
+  if (result === "iPhone") {
+    const iPhones = await iPhoneModel.find();
+    const iPhonePrompt = `${iPhones}
+      \nthese are the list of iphones we have.
+      \nthe user asked ${query}
+      \nas a chatbot give a suitable reply based on the given data`;
+                    
+    return await getResult(iPhonePrompt);
+  }
+  return result
+}
+
+const hey = async () => {
+  await connectDB();
+  const res = await respondProduct("how many stocks do you have on iphone 12")
+  console.log(res)
+  exit()
+}
+
+hey()

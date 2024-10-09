@@ -1,0 +1,69 @@
+{
+    "macBooks": [
+        {
+            "name": "APPLE MacBook Air M2 (Space Grey, 256 GB)",
+            "url": "https://www.flipkart.com/apple-macbook-air-m2-256-gb/p/itm9d3c46c1b6d58?pid=MOBGBWMFTYM2M6XP",
+            "brand": "Apple",
+            "salePrice": "119900",
+            "mrp": "119900",
+            "discountPercentage": "0",
+            "numberOfRatings": "523",
+            "numberOfReviews": "75",
+            "upc": "MOBGBWMFTYM2M6XP",
+            "starRating": "4.8",
+            "ram": "8 GB"
+        },
+        {
+            "name": "APPLE MacBook Pro M1 (Silver, 512 GB)",
+            "url": "https://www.flipkart.com/apple-macbook-pro-m1-512-gb/p/itm7769f2a2fd1a4?pid=MOBFSKMCTP8WXHXX",
+            "brand": "Apple",
+            "salePrice": "139900",
+            "mrp": "149900",
+            "discountPercentage": "6",
+            "numberOfRatings": "814",
+            "numberOfReviews": "129",
+            "upc": "MOBFSKMCTP8WXHXX",
+            "starRating": "4.9",
+            "ram": "16 GB"
+        },
+        {
+            "name": "APPLE MacBook Air M1 (Gold, 512 GB)",
+            "url": "https://www.flipkart.com/apple-macbook-air-m1-512-gb/p/itmdf5f3b9e5bc91?pid=MOBFKCTSGVWPVZGU",
+            "brand": "Apple",
+            "salePrice": "124900",
+            "mrp": "129900",
+            "discountPercentage": "4",
+            "numberOfRatings": "1965",
+            "numberOfReviews": "280",
+            "upc": "MOBFKCTSGVWPVZGU",
+            "starRating": "4.8",
+            "ram": "8 GB"
+        },
+        {
+            "name": "APPLE MacBook Pro M2 (Space Grey, 1 TB)",
+            "url": "https://www.flipkart.com/apple-macbook-pro-m2-1tb/p/itm5897b2e2f348c?pid=MOBGBCGWMCTZZEXH",
+            "brand": "Apple",
+            "salePrice": "199900",
+            "mrp": "209900",
+            "discountPercentage": "5",
+            "numberOfRatings": "248",
+            "numberOfReviews": "40",
+            "upc": "MOBGBCGWMCTZZEXH",
+            "starRating": "4.9",
+            "ram": "16 GB"
+        },
+        {
+            "name": "APPLE MacBook Air M2 (Starlight, 512 GB)",
+            "url": "https://www.flipkart.com/apple-macbook-air-m2-512-gb/p/itm9c46afba4b0ef?pid=MOBGBWMFMEAMNPHZ",
+            "brand": "Apple",
+            "salePrice": "134900",
+            "mrp": "139900",
+            "discountPercentage": "3",
+            "numberOfRatings": "642",
+            "numberOfReviews": "96",
+            "upc": "MOBGBWMFMEAMNPHZ",
+            "starRating": "4.7",
+            "ram": "8 GB"
+        }
+    ]
+}
